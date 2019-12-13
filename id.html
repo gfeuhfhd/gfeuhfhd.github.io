@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>한방로또-ID,PW 찾기</title>
+<style>
+th{
+	border: solid 1px;
+	border-collapse: collapse;
+	background-color: #efefef;
+	color: #565656;
+}
+table ,td{
+	border: solid 1px;
+	border-collapse: collapse;
+}
+form{
+	
+}
+}
+	*{
+      padding: 0;
+      margin: 0;
+	}
+	li{
+		list-style: none;
+	}
+.clear{
+	clear: both;
+}
+#page{
+	margin: auto;
+	width: 1885px;
+}
+header{
+   
+	width: 1855px;
+	height: 50px;
+	margin-top: 8px;
+	margin-left: 5px;
+	border: solid 6px black;
+	
+}
+ 
+nav{
+	width: 1885px;
+	margin: 5px 0 0 0px;
+	border: solid 0px orange;
+  background-image: url(./nav/menu.jpg);
+    background-repeat: no-repeat;
+
+ 
+}
+nav {
+  width: 1885px;
+  height: 30px;
+   transition: width 2s, height 3s;
+}
+
+nav:hover {
+  width: 1885px;
+  height: 320px;}
+nav li{
+	float: right;
+	margin: 20px 30px;
+    
+}
+}
+#j{
+    margin-left: 10px;
+}
+section{
+	width: 1200px;
+	height: 1000px;
+	float: left;
+	margin-top: 60px;
+	border: solid 0px gray;
+	border-radius: 5px;
+    margin-left: 450px;
+    font-size: 20px;
+}
+#img{margin-top: -34px; 
+margin-left: -419px;
+	}
+#logo{
+	margin-left: 20px;
+}
+#t{
+	font-size: 40px;
+	color: gray;
+	margin-top:-100px;
+}
+#b{
+    margin-top:20px;
+    margin-left: -5px; 
+}
+span{
+	font-size: 15px;
+	color: gray;
+}
+input{
+	font-size: 30px;
+}
+.aaa{
+font-size: 15px;
+width: 120px;
+height: 40px;
+background-color: gray;
+color: white;
+margin-top: 0px;
+}
+#sss{
+	color: #656565;
+}
+select{
+	width: 110px;
+	height: 30px;
+}
+#mmm{
+	margin-left: 320px;
+	margin-top: 90px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="page">
+
+<header>
+<a href="index.html"><div id="logo"><img src="./img/logo.gif" width="300"></div></a>
+
+	
+
+</header>
+<nav>
+
+		<ul>
+
+			<li class="nav"><a href="login.html">나의번호확인</a></li>
+
+			<li>ㅣ</li>
+
+			<li class="nav"><a href="./map.html">오시는길</a></li>
+
+			<li>ㅣ</li>
+
+			<li class="nav"><a href="./ed.html">이용약관</a></li>
+
+			<li>ㅣ</li>
+
+			<li class="nav"><a href="./moon.html">문의사항</a></li>
+
+		</ul>
+
+	</nav>
+ 
+
+
+<section>
+<div id="img"><img src="./login/id.PNG"></div>
+<div id="t">아이디/비밀번호 찾기</div>
+<div id="b"><a href="pass.html"><img src="./login/1.PNG" width="1215"></a></div>
+<br><span>회원가입 시 입력한 이메일이나 휴대폰 번호 또는 본인인증으로 아이디를 확인할 수 있습니다.</span>
+<br><br><br><br>등록한 이메일로 인증<hr>
+<table border="0">
+	<tr>
+      <th width="250" height="70">이름</th>
+       <td width="950" height="70"> 
+         <form>
+         	&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="12">
+         </form>
+       </th>
+	</tr>
+	<tr>
+      <th width="250" height="70">이메일</th>
+       <td width="950" height="70">
+         <form>
+         	&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="12">@<input type="text" size="12">
+            <select>
+            	<option>직접입력</option>
+            	<option>gmail.com</option>
+            	<option>naver.com</option>
+            	<option>nate.com</option>
+            	<option>empal.com</option>
+            	<option>lycos.com</option>
+            	<option>msn.com</option>
+            	<option>yahoo.com</option>
+            	<option>korea.com</option>
+            </select>
+         	&nbsp;<input type="button" class="aaa" value="인증번호 발송">
+         
+         </form>
+       </th>
+	</tr>
+	<tr>
+       <th width="250" height="70">인증번호</th>
+       <td width="950" height="70">
+          <form>
+         	&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="12">&nbsp;<input type="button" class="aaa" value="인증번호 확인">
+         </form>
+       </th>
+	</tr>
+
+</table>
+<div id="sss"><br>-인증번호가 발송되지 않은 경우 다시 한 번 인증번호 발송을 눌러주세요.<br>
+-회원정보에 등록된 이름과 이메일이 동일해야만 인증번호가 발송됩니다.<br>
+-인증번호는 입력한 이메일로 발송됩니다.<br></div>
+<div id="mmm"><a href="index.html"><img src="./login/x.PNG" width="250"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./login/o.png" width="250"></div>
+</section>
+
+
+</body>
+
+</html>
